@@ -1,6 +1,6 @@
-# Coach Vinna
+# Vinna Pradivta
 
-Situs aplikasi personal training Coach Vinna (panel coach + portal klien), tersambung ke spreadsheet XNK milik
+Situs aplikasi personal training Vinna Pradivta (panel coach + portal klien), tersambung ke spreadsheet XNK milik
 Vinna (sama dengan `xnk.web.id/vinna`), tetapi di **domain sendiri**. Gratis lewat GitHub Pages dan bisa dibuka
 tanpa sinyal.
 
