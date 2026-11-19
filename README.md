@@ -18,11 +18,11 @@ repo ini**: semuanya ada di spreadsheet Vinna (repo ini publik).
 
 ## Pasang domain sendiri
 
-Contoh di bawah memakai `coachvinna.com`; ganti dengan domain Vinna.
+Domain Vinna: **`coachvin.my.id`**.
 
 1. **DNS** (di tempat domain didaftarkan), pilih salah satu:
 
-   **a. Domain utama** (`coachvinna.com`):
+   **a. Domain utama** (`coachvin.my.id`, dipakai):
 
    | Jenis | Nama | Nilai |
    | --- | --- | --- |
@@ -36,17 +36,17 @@ Contoh di bawah memakai `coachvinna.com`; ganti dengan domain Vinna.
    | AAAA | `@` | `2606:50c0:8003::153` |
    | CNAME | `www` | `xnkzzxd.github.io` |
 
-   **b. Subdomain** (mis. `app.coachvinna.com`): cukup satu baris `CNAME` · `app` · `xnkzzxd.github.io`.
+   **b. Subdomain** (mis. `app.coachvin.my.id`, bila nanti dipakai): cukup satu baris `CNAME` · `app` · `xnkzzxd.github.io`.
 
    Bila GitHub mengubah alamat ini, ikuti dokumentasi *GitHub Pages → custom domain* yang terbaru.
-2. **Settings → Pages → Custom domain**: isi domainnya, **Save**, tunggu centang DNS hijau (beberapa menit sampai
+2. **Settings → Pages → Custom domain**: isi `coachvin.my.id`, **Save**, tunggu centang DNS hijau (beberapa menit sampai
    beberapa jam), lalu centang **Enforce HTTPS**.
 3. (Disarankan) **Verifikasi domain** di pengaturan akun GitHub (Settings → Pages → Add a domain), supaya orang lain
    tidak bisa memasang domain itu di repo mereka.
-4. Di spreadsheet Vinna: **XNK → Mulai setup → langkah 4**, isi alamat utama situs (mis. `https://coachvinna.com`,
+4. Di spreadsheet Vinna: **XNK → Mulai setup → langkah 4**, isi alamat utama situs (`https://coachvin.my.id`,
    tanpa `/klien/`). Link di pesan WhatsApp ke klien otomatis menuju `<alamat>/klien/`.
 
-Setelah domain aktif, bagikan `https://<domain>/klien/` ke klien. Alamat lama `xnk.web.id/vinna/klien/` tetap jalan
+Setelah domain aktif, bagikan `https://coachvin.my.id/klien/` ke klien. Alamat lama `xnk.web.id/vinna/klien/` tetap jalan
 selama Vinna masih ada di hub, tetapi penyimpanan offline dan login di browser terpisah per alamat, jadi klien
 perlu masuk sekali lagi di alamat baru.
 
